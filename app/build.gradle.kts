@@ -58,7 +58,14 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
 
+    // koin
+    implementation(libs.koin.compose)
+    implementation(libs.koin.core)
+    implementation(libs.koin.android)
+    implementation(libs.koin.test)
+    implementation(libs.koin.junit)
 
+    implementation(libs.room.database)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
